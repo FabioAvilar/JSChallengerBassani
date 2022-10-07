@@ -3,8 +3,14 @@
 // Otherwise, return false
 
 
+// function myFunction(a) {
+//     console.log(Number.isInteger(a));
+// }
+
+// or we can make also this
+
 function myFunction(a) {
-    console.log(Number.isInteger(a));
+    console.log( a - Math.floor(a) === 0 );
 }
 
 myFunction(4);

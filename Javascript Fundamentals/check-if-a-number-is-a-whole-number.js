@@ -3,9 +3,15 @@
 // Otherwise, return false
 
 
-// function myFunction(a) {
-//     console.log(Number.isInteger(a));
-// }
+function myFunction(a) {
+    console.log(Number.isInteger(a));
+}
+
+myFunction(4);
+
+myFunction(1.123);
+
+myFunction(1048);
 
 // or we can make also this
 

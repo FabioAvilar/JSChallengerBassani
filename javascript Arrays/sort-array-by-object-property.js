@@ -1,0 +1,29 @@
+// Write a function that takes an array of objects as argument
+// Sort the array by property b in ascending order
+// Return the sorted array
+
+function myFunction(arr) {
+
+    return arr.sort((obj1, obj2) => obj1.b - obj2.b);
+}
+
+console.log(
+    myFunction([
+        { a: 1, b: 2 },
+        { a: 5, b: 4 },
+    ])
+);
+
+console.log(
+    myFunction([
+        { a: 2, b: 10 },
+        { a: 5, b: 4 },
+    ])
+);
+
+console.log(
+    myFunction([
+        { a: 1, b: 7 },
+        { a: 2, b: 1 },
+    ])
+);

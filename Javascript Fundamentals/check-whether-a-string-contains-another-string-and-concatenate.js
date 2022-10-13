@@ -24,5 +24,5 @@ console.log(myFunction("cheese", "cake"));
 
 console.log(myFunction("lips", "s"));
 
-console.log(myFunction("fabio", "bassani"));
+console.log(myFunction("fabio", "ab"));
 

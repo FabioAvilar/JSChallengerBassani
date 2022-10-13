@@ -19,3 +19,4 @@ function myFunction(a) {
 console.log(myFunction(8));
 
 console.log(myFunction(9));
+

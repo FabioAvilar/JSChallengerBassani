@@ -1,0 +1,46 @@
+body {
+    background-color: #1d3557;
+}
+
+.container {
+    display: flex;
+    width: auto;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.circle {display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#red {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#green {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#button {
+    background-color: #ffbe0b;
+    color: #fb5607;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}

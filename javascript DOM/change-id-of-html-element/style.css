@@ -1,0 +1,31 @@
+body {
+    background-color: #0f4c5c;
+}
+
+#wrapper {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+button {
+    background-color: #d62828;
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input {
+    color: gray;
+    text-align: center;
+    padding: 1.5rem 2.5rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+}
